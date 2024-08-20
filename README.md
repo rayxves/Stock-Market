@@ -1,2 +1,2 @@
 # Stock-Market
-A finalidade desse projeto é aprender sobre o desenvolvimento de APIs, focando na criação e consumo de APIs, bem como entender conceitos de CRUD e autenticação.
+Este projeto é para estudar e aprender sobre o desenvolvimento de APIs. Foca em explorar a criação e consumo de APIs, bem como entender conceitos como CRUD e autenticação.
