@@ -1,0 +1,48 @@
+# Diretórios e arquivos padrão para projetos .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Diretórios e arquivos de build
+wwwroot/
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Configurações de ambiente
+*.local
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de configuração específicos de IDE
+.vscode/
+.idea/
+
+# Arquivos de configuração de compilação
+*.nupkg
+*.snk
+
+# Diretórios e arquivos do Node.js (se você estiver usando Node.js para o front-end)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arquivos do Visual Studio Code
+.vscode/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos do Docker (se estiver usando Docker)
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Arquivos de configuração de credenciais (se aplicável)
+secrets.json
