@@ -1,5 +1,7 @@
 //control things, like dependecies, provide services
 using api.Data;
+using api.Interfaces;
+using api.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +20,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseMySql(connectionString, serverVersion);
 });
 
+builder.Services.AddScoped<IStockRepository, StockRepository>();
 
 var app = builder.Build(); 
 
