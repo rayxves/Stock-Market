@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using api.Data;
 using api.Dtos.Comment;
+using api.Helpers;
 using api.Interfaces;
 using api.Mappers;
 using api.Repository;
@@ -96,7 +97,7 @@ namespace api.Controllers
             {
                 return BadRequest(ModelState);
             }
-            
+
             var commentModel = await _commentRepo.DeleteAsync(id);
 
             if (commentModel == null)
