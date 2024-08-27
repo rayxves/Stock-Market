@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace api.Dtos.Stock
 {
-    public class createStockRequestDto
+    public class CreateStockRequestDto
     {
     public string Symbol { get; set; } = string.Empty;
 

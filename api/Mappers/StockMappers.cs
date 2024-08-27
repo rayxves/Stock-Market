@@ -23,7 +23,7 @@ namespace api.Mappers.StockMappers{
             };
         }
 
-        public static Stock ToStockFromCreateDTO(this createStockRequestDto stockDto){
+        public static Stock ToStockFromCreateDTO(this CreateStockRequestDto stockDto){
         return new Stock{
               Symbol = stockDto.Symbol,
                 CompanyName = stockDto.CompanyName,
