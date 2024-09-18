@@ -5,29 +5,44 @@ Bem-vindo à StockMarket API!
 
 ### Autenticação:
 *Crie uma nova conta de usuário e acesse a sua conta existente.*
+
 Login: POST /api/account/login
+
 Registro: POST /api/account/register
 
 ### Ações:
 *Adicione novas ações ao sistema, especificando informações como nome, símbolo e valor de mercado.*
+
 Obter Ações: GET /api/stock
+
 Adicionar Ação: POST /api/stock
+
 Obter Ação por ID: GET /api/stock/{id}
+
 Atualizar Ação: PUT /api/stock/{id}
+
 Deletar Ação: DELETE /api/stock/{id}
 
 ### Comentários:
 *Comente sobre qualquer ação.*
+
 Obter Comentários: GET /api/comment
+
 Obter Comentário por ID: GET /api/comment/{id}
+
 Adicionar Comentário: POST /api/comment/{symbol}
+
 Atualizar Comentário: PUT /api/comment/{id}
+
 Deletar Comentário: DELETE /api/comment/{id}
 
 ### Portfolio:
 *Gerencie suas ações preferidas, adicionando-as ao seu portfolio pessoal.*
+
 Obter Portfolio: GET /api/portfolio
+
 Adicionar Ação ao Portfolio: POST /api/portfolio
+
 Deletar Ação do Portfolio: DELETE /api/portfolio
 
 ## 🛠️ Tecnologias Utilizadas
