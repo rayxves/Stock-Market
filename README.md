@@ -44,11 +44,13 @@ Clone o Repositório
 
 ``` git clone https://github.com/seuusuario/stockmarket-api.git ```
 
-Instale as Dependências Navegue até o diretório do projeto e execute:
+Instale as Dependências:
+Navegue até o diretório do projeto e execute:
 
 ```dotnet restore ```
 
-Configure o Banco de Dados, configure sua string de conexão no arquivo appsettings.json.
+Configure o Banco de Dados:
+Configure sua string de conexão no arquivo appsettings.json.
 
 Execute a API Para iniciar o servidor:
 
