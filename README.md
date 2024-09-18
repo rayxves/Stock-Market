@@ -10,6 +10,7 @@ Login: POST /api/account/login
 
 Registro: POST /api/account/register
 
+
 ### Ações:
 *Adicione novas ações ao sistema, especificando informações como nome, símbolo e valor de mercado.*
 
@@ -22,6 +23,7 @@ Obter Ação por ID: GET /api/stock/{id}
 Atualizar Ação: PUT /api/stock/{id}
 
 Deletar Ação: DELETE /api/stock/{id}
+
 
 ### Comentários:
 *Comente sobre qualquer ação.*
@@ -36,6 +38,7 @@ Atualizar Comentário: PUT /api/comment/{id}
 
 Deletar Comentário: DELETE /api/comment/{id}
 
+
 ### Portfolio:
 *Gerencie suas ações preferidas, adicionando-as ao seu portfolio pessoal.*
 
@@ -44,6 +47,7 @@ Obter Portfolio: GET /api/portfolio
 Adicionar Ação ao Portfolio: POST /api/portfolio
 
 Deletar Ação do Portfolio: DELETE /api/portfolio
+
 
 ## 🛠️ Tecnologias Utilizadas
 - .NET 8.0: Framework principal para desenvolvimento da API.
